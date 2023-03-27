@@ -1,0 +1,26 @@
+
+.City{
+    width: 500px;
+    border-radius: 2px;
+    padding: 10px;
+    border: 1px solid black;
+    margin-left: 50px;
+    margin-top: 50px;
+    &__list{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &:not(:last-child){
+            border-bottom: 1px solid black;
+        }
+        
+    }
+    &__item{
+        flex: 1 1 0;
+        padding: 10px;
+        
+        &--number{
+            text-align: right;
+        }
+    }
+}

@@ -1,0 +1,36 @@
+.City {
+  width: 500px;
+  border-radius: 2px;
+  padding: 10px;
+  border: 1px solid black;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+.City__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.City__list:not(:last-child) {
+  border-bottom: 1px solid black;
+}
+
+.City__item {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 0px;
+          flex: 1 1 0;
+  padding: 10px;
+}
+
+.City__item--number {
+  text-align: right;
+}
+/*# sourceMappingURL=city.css.map */
